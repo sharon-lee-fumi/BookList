@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- Sharon Lee-->
+
+<lixiaow>
+
+	<title>Sharon's Book List</title>
+	
+	<sName sNumber="991000000" sProgram="Software Development and Network Engineering">Sharon Lee</sName>
+
+		<book>
+			<bookName bookimg="lj.jpg">Learning Java</bookName>
+			<description bookType="programing">Java is the preferred language for many of 
+			today’s leading-edge technologies-everything from smartphones and game consoles 
+			to robots, massive enterprise systems, and supercomputers.</description>
+			<authorName>Patrick Niemeyer</authorName>
+			<publisherName>O'Reilly Media</publisherName>
+			<price>$42.06</price>
+			<personalReview>You’ll learn powerful new ways to manage resources and exceptions 
+			in your applications, and quickly get up to speed on Java’s new concurrency utilities, 
+			and APIs for web services and XML. You’ll also find an updated tutorial on how to get started 
+			with the Eclipse IDE, and a brand-new introduction to database access in Java.</personalReview>
+		</book>
+		<book>
+			<bookName bookimg="nutshell.jpg">Nutshell</bookName>
+			<description bookType="fiction">Nutshell is an altogether original story of deceit and murder, 
+			told by a narrator with a perspective and voice unlike any in recent literature.</description>
+			<authorName>Ian McEwan</authorName>
+			<publisherName>Knopf Canada</publisherName>
+			<price>$17.79</price>
+			<personalReview>Love and betrayal, life and death come together in the most unexpected, 
+			moving ways in this sensational new novel from Ian McEwan, which will make readers first gasp 
+			with astonishment then laugh with delight. Dazzling, funny and audacious, 
+			it is the finest recent work from a true master, beautifully told, brilliantly executed.</personalReview>
+		</book>
+		<book>
+			<bookName bookimg="inferno.jpg">Inferno</bookName>
+			<description bookType="fiction">The darkest places in hell are reserved for those 
+			who maintain their neutrality in times of moral crisis.</description>			
+			<authorName>Dan brown</authorName>
+			<publisherName>Doubleday</publisherName>
+			<price>$7.40</price>
+			<personalReview>Inferno is a sumptuously entertaining read—a novel that will captivate readers 
+			with the beauty of classical Italian art, history, and literature . . . while also posing 
+			provocative questions about the role of cutting-edge science in our future.</personalReview>
+		</book>
+		<book>
+			<bookName bookimg="lop.jpg">Life of Pi</bookName>
+			<description bookType="fiction">One boy. One boat. One tiger. "Life is a story... 
+			You can choose your story... A story with God is the better story."</description>
+			<authorName>Yann Martel</authorName>
+			<publisherName>Mariner Books</publisherName>
+			<price>$8.92</price>
+			<personalReview>After the tragic sinking of a cargo ship, a solitary lifeboat remains bobbing 
+			on the wild, blue Pacific. The only survivors from the wreck are a sixteen-year-old boy named Pi,
+			a hyena, a zebra (with a broken leg), a female orangutan--and a 450-pound Royal Bengal tiger. 
+			The scene is set for one of the most extraordinary and beloved works of fiction in recent years.</personalReview>
+		</book>
+</lixiaow>

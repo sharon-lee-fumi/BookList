@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- Sharon Lee -->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment 2 - Sharon Lee</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css" />
+	<link rel="stylesheet" href="_css/mystyles.css" />
+	<link rel="stylesheet" href="_css/lee.css" />
+
+	<script src="_js/jquery.js"></script>
+	<script src="_js/jquery.mobile.js"></script>
+	<script src="_js/myscript.js"></script>
+</head>
+<body>
+<!-- Home page -->
+<div data-role="page" id="home" data-theme="a">
+	<!-- header -->
+	<header data-role="header">
+		<h1 class="ui-title"></h1>
+	</header>
+
+	<!-- list and navigation bar -->
+	<section class="ui-content" role="main">
+		<ul id="bookMenu" data-role="listview" data-inset="true" data-filter="true">
+		</ul>
+		<nav data-role="navbar" id="navhome">
+		</nav>
+	</section>
+	
+	<!-- footer -->
+	<footer data-role="footer">
+	</footer>
+</div>
+<!-- end of home page -->
+
+<!-- Start of individual page -->
+<div data-role="page" id="individual" data-theme="a">
+	<!-- header -->
+	<header data-role="header">
+		<a href="#home" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+		<h1 class="ui-title"></h1>
+	</header>
+	
+	<section class="ui-content" role="main">
+		<!-- individual book's information -->
+		<section class="ui-grid-a" role="main" id="ind-data">
+			<div class="ui-block-a" id="bookinfo">
+			</div>
+
+			<div class="ui-block-b" style="text-align:center;" id="bookimg">
+			</div>
+		</section>
+		
+		<!-- buttons -->
+		<section class="ui-grid-a" role="main" id="link">
+			<div class="ui-block-a" id="indigo">
+			<a href="http://indigo.ca" class="ui-btn">Indigo.ca</a>
+			</div>
+
+			<div class="ui-block-b" style="text-align:center;" id="review">
+			<a href="#popup" class="ui-btn" data-rel="dialog" data-transition="pop">Personal review</a>
+			</div>
+		</section>
+		
+		<!-- navigation bar -->
+		<section role="main">
+			<nav data-role="navbar" id="navind"></nav>
+		</section>
+	</section>
+
+	<!-- footer -->
+	<footer data-role="footer">
+	</footer>
+</div>
+<!-- end of individual page -->
+
+<!-- Start of #popup -->
+<div data-role="page" id="popup" data-theme="a">
+
+	<!-- header -->
+	<header data-role="header" id="pr">
+	</header>
+	
+	<!-- content -->
+	<div  id="pp" class="ui-content" role="main">
+	</div>
+</div>
+<!-- end of popup page -->
+</body>
+</html>
